@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXT Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                <i class="fas fa-code"></i>Guilherme NR
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/projects.html" class="navbar__links">
+                        Projects
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/aboutme" class="navbar__links">
+                        About Me
+                    </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/contactme" class="button">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Projects</h1>
+                <h2>From Computer Vision to Database</h2>
+                <p>
+                    I have developed and worked with several different projects in the wide spectrum of CS,
+                    below you can check some of these projects out on GitHub
+                    
+                </p>
+                <button class="main__btn"><a href="/">About Me</a></button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/projects.svg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services">
+        <h1>Learn more</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Computer Vision</h2>
+                <p>A field of AI that enables computers to derive meaningful information from images</p>
+                <button>View Projects</button>
+            </div>
+            <div class="services__card">
+                <h2>GUI Showcase</h2>
+                <p>A showcase of some functional graphical user interfaces I worked in</p>
+                <button>View Projects</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2><i class="fa-solid fa-address-book"></i>About Page</h2>
+                    <a href="/">
+                        Who am I?
+                    </a>
+                    <a href="/">
+                        Contact Me
+                    </a>
+                </div>
+                <div class="footer__link--items">
+                    <h2><i class="fa-solid fa-code"></i>
+                        Projects
+                    </h2>
+                    <a href="/">Computer Vision</a>
+                    <a href="/">GUIs</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
